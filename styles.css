@@ -1,0 +1,96 @@
+body{
+    margin: 0;
+}
+main{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: aqua;
+    display: flex;
+}
+
+#menu{
+    background-color: beige;
+    width: 10%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: left;
+}
+
+#canvas{
+    position: relative;
+    display: block;
+    background-color: cornsilk;
+    height: 100vh;
+    width: 90%;
+    border-collapse: collapse;
+    margin: 0;
+    padding: 0;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100vh;
+}
+
+.cell{
+    height: 7px;
+    width: 7px;
+}
+
+#color-input{
+    border: none;
+    outline: none;
+    height: 30%;
+    width: 90%;
+}
+.button{
+    width: 80%;
+    color: #ccc;
+    border-radius: 5px;
+    margin: 10px;
+    color: darkred;
+}
+
+#favorite-colors{
+    background-color: cornsilk;
+}
+
+.favorite-colors-cell{
+    border: 1px solid #ccc;
+    width: 30px;
+    height: 30px;
+    margin: 2px;
+}
+
+.cellFilled {
+    cursor: pointer;
+}
+
+#tools{
+    display: flex;
+    flex-direction: column;
+    height: 30%;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+}
+#tools button{
+    font-size: 1.1em;
+    width: 90%;
+    height: 45%;
+    border-radius: 5px;
+}
+
+.grid{
+    border: 1px solid #ccc;
+
+}
+
+#file-input{
+    display: none;
+}
+
+#hide-checkbox{
+    display: none;
+}

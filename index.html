@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pixel Art</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <main>
+        <div id="menu">
+            <button class="button" id="reset">Reset</button>
+            <span>Change color</span>
+            <input id="color-input" type="color">
+            <div>
+                <button class="button" id="add-fav-color">Add Fav Color</button>
+                <table id="favorite-colors"></table>
+            </div>
+            <div id="tools">
+                <button id="pencil">Pencil</button>
+                <button id=eraser>Eraser</button>
+            </div>
+            <button class="button" id="remove-grid"></button>
+            <button class="button" id="add-image">add background</button>
+            <div id="hide-checkbox">
+                <input type="checkbox" id="hide-image">
+                <span>Show backgound Image</span>
+            </div>
+            <input type="file" id="file-input">
+        </div>
+        <table id="canvas"></table>
+    </main>
+    <script src="index.js"></script>
+</body>
+</html>
