@@ -9,3 +9,5 @@
 ![screenshot](./readme_assets/bg.png)
 
 ### Soon you be able to download these images to add in your own projects.
+
+#### [You can test it by clicking here.](https://jannuzzi-m.github.io/pixel_art_maker/index)
